@@ -1,4 +1,3 @@
-readme_content = """
 # Heart Disease Prediction Model
 
 ## Overview
