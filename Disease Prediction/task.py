@@ -3,10 +3,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
-from google.colab import drive
 
-drive.mount('/content/drive')
-dataset_path = "/content/drive/MyDrive/ProjectData/heart.csv"
+dataset_path = "Data/heart.csv"
 
 raw_data = pd.read_csv(dataset_path)
 print(raw_data.head(), end = "\n\n")
