@@ -7,12 +7,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, ConfusionMatrixDisplay
-from google.colab import drive
 from IPython.display import display
 
-drive.mount('/content/drive', force_remount=True)
 
-dataset_path = "/content/drive/MyDrive/ProjectData/Credit_Score_Clean.csv"
+dataset_path = "/data/Credit_Score_Clean.csv"
+
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 1000)
