@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from IPython.display import display
 
 
-dataset_path = "/data/Credit_Score_Clean.csv"
+dataset_path = "Data/Credit_Score_Clean.csv"
 
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
